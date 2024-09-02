@@ -4,7 +4,7 @@ const app: Express = express();
 const port: number = 3000;
 
 app.get("/", (req: Request, res: Response) => {
-  console.log("lala");
+  console.log("hehe");
   res.send("Hello world with typescript");
 });
 
